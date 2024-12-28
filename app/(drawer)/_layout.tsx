@@ -29,6 +29,17 @@ const DrawerLayout = () => (
         ),
       }}
     />
+
+    <Drawer.Screen
+      name="profile"
+      options={{
+        headerTitle: 'Profile',
+        drawerLabel: 'Profile',
+        drawerIcon: ({ size, color }) => (
+          <Ionicons name="person-add-sharp" size={size} color={color} />
+        ),
+      }}
+    />
   </Drawer>
 );
 
