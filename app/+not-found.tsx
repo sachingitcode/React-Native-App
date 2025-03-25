@@ -13,7 +13,7 @@ export default function NotFoundScreen() {
         <Text variant="title">This screen doesn't exist.</Text>
         <Link href="/" style={styles.link}>
           <Text variant="body" color="blue">
-            Go to home screen!
+            Go to Main screen!
           </Text>
         </Link>
       </Container>
